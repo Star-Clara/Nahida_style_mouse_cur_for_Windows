@@ -1,0 +1,61 @@
+[Version]
+signature = "$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg,Wreg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CurArrow%,%10%\%CUR_DIR%\%CurHelp%,%10%\%CUR_DIR%\%CurAppStarting%,%10%\%CUR_DIR%\%CurWait%,%10%\%CUR_DIR%\%CurCrosshair%,%10%\%CUR_DIR%\%CurIBeam%,%10%\%CUR_DIR%\%CurNWPen%,%10%\%CUR_DIR%\%CurNo%,%10%\%CUR_DIR%\%CurSizeNS%,%10%\%CUR_DIR%\%CurSizeWE%,%10%\%CUR_DIR%\%CurSizeNWSE%,%10%\%CUR_DIR%\%CurSizeNESW%,%10%\%CUR_DIR%\%CurSizeAll%,%10%\%CUR_DIR%\%CurUpArrow%,%10%\%CUR_DIR%\%CurHand%"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%CurAppStarting%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%CurArrow%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%CurCrosshair%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%CurHand%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%CurHelp%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%CurIBeam%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%CurNo%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%CurNWPen%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%CurSizeAll%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%CurSizeNESW%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%CurSizeNS%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%CurSizeNWSE%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%CurSizeWE%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%CurUpArrow%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%CurWait%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0"
+
+[Scheme.Cur]
+"1.cur"
+"2.cur"
+"3.ani"
+"4.ani"
+"5.cur"
+"6.cur"
+"7.cur"
+"8.1.cur"
+"8.2.cur"
+"9.cur"
+"10.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Pstr"
+SCHEME_NAME     = "Pstr_Nahida_cur"
+
+CurArrow        = "1.cur"
+CurAppStarting  = "4.ani"
+CurWait         = "3.ani"
+CurCrosshair    = "9.cur"
+CurIBeam        = "5.cur"
+CurSizeNS       = "6.cur"
+CurSizeWE       = "7.cur"
+CurSizeNWSE     = "8.1.cur"
+CurSizeNESW     = "8.2.cur"
+CurSizeAll      = "10.cur"
+CurUpArrow      = "1.cur"
+Curhand         = "2.cur"
