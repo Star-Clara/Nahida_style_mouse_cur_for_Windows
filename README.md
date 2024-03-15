@@ -1,0 +1,2 @@
+# Nahida_style_mouse_cur_for_Windows
+适用于Windows的纳西妲风格鼠标指针
