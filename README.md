@@ -1,5 +1,6 @@
 # Nahida_style_mouse_cur_for_Windows
-这是一套纳西妲款式的，适用于Windows的鼠标指针、
+这是一套纳西妲款式的，适用于Windows的鼠标指针。
+![IMG_9795](https://github.com/Puurestar/Nahida_style_mouse_cur_for_Windows/assets/105161692/f31eb3a6-04b7-411d-b376-717e8417a9a5)
 
 ![image](https://github.com/Puurestar/Nahida_style_mouse_cur_for_Windows/assets/105161692/88031328-7e87-4bdc-9ad5-2f56623acd68)
 
